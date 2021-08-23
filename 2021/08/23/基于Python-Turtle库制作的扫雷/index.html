@@ -75,7 +75,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">3.1k</span>
+            <span class="post-count">3k</span>
         </span>
     </span>
 
@@ -103,7 +103,7 @@
 <a id="more"></a>
 <hr>
 <h2 id="总体思路"><a href="#总体思路" class="headerlink" title="总体思路"></a>总体思路</h2><p>游戏构思时主要的分成两大部分：<code>界面组成</code>和<code>游戏运行</code>。</p>
-<p>![扫雷 逻辑思路](C:\博客搭建\文章草稿\已发表# 基于Python Turtle库制作的贪吃蛇.assets\扫雷 逻辑思路.png)</p>
+<p><img src="https://z3.ax1x.com/2021/08/24/hiaJDP.png" alt="扫雷 逻辑思路"></p>
 <h4 id="界面组成"><a href="#界面组成" class="headerlink" title="界面组成"></a>界面组成</h4><p>游戏界面主要分为<code>游戏进行区</code>和<code>配置/显示区</code></p>
 <ul>
 <li><p><code>游戏进行区</code>为扫雷游戏部分，界面的元素包括是由方格组成的雷区，以及扫雷过程中出现的旗子、问号、炸弹等。</p>
@@ -111,8 +111,8 @@
 <li><p><code>配置/显示区</code>包括有计分（剩余雷数）显示、计时显示、重置（笑脸/哭脸）显示、游戏进行区参数设置等。由于能力和时间有限，计时区和参数区还未设计。</p>
 </li>
 </ul>
-<p>![image-20210823185302650](C:\博客搭建\文章草稿\已发表# 基于Python Turtle库制作的贪吃蛇.assets\image-20210823185302650.png)</p>
-<p>![image-20210823185545636](C:\博客搭建\文章草稿\已发表# 基于Python Turtle库制作的贪吃蛇.assets\image-20210823185545636.png)</p>
+<p><img src="https://z3.ax1x.com/2021/08/24/hia3jI.png" alt="界面组成1"></p>
+<p><img src="https://z3.ax1x.com/2021/08/24/hiaGut.png" alt="界面组成2"></p>
 <h4 id="游戏运行"><a href="#游戏运行" class="headerlink" title="游戏运行"></a>游戏运行</h4><p>游戏进行部分我主要分为<code>初始化</code>、<code>游戏进行中</code>、<code>游戏结束</code></p>
 <ul>
 <li><code>初始化</code>包括显示界面的初始化、游戏中相关参数的初始化。参数包括有布置雷数、有雷区域标记、区域是否扫过标记、游戏是否能够进行（游戏是否失败）标记等。为了使第一次不会踩到雷，我采用了点击第一下再开始有雷区域的布置，同时计时开始。</li>
