@@ -75,7 +75,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">777</span>
+            <span class="post-count">974</span>
         </span>
     </span>
 
@@ -99,17 +99,19 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <p>为了方便自己以后配置博客 : )</p>
-<a id="more"></a>
+  <p>博客搭建笔记 : )</p>
+<span id="more"></span>
 
 <hr>
-<h4 id="教程视频来源"><a href="#教程视频来源" class="headerlink" title="教程视频来源"></a><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1nh411o738?p=1">教程视频来源</a></h4><hr>
 <h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h4 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h4><p><a target="_blank" rel="noopener" href="https://nodejs.org/en/">Nodejs</a><br><a target="_blank" rel="noopener" href="https://gitforwindows.org/">Git Bash</a><br>打开 <strong>Git Bash</strong> 输入 <strong>node -v</strong> 和 <strong>npm -v</strong> 检验是否安装成功。</p>
 <h4 id="启动CMD，输入以下指令"><a href="#启动CMD，输入以下指令" class="headerlink" title="启动CMD，输入以下指令"></a>启动CMD，输入以下指令</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> prefix “C:\博客搭建\Global”</span><br><span class="line">npm config <span class="built_in">set</span> cacha “C:\博客搭建\Global”</span><br></pre></td></tr></table></figure>
 <p><strong>记住路径，配置变量的时候会用到</strong></p>
 <h4 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h4><p>打开 <strong>Git Bash</strong> 输入</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo</span><br></pre></td></tr></table></figure>
 <p>如果Hexo无法使用，需要配置环境变量</p>
+<blockquote>
+<p>注意hexo版本与node.js的版本要相对应，否则运行hexo服务时会出现警告（但不影响使用）。<br>版本参考<a target="_blank" rel="noopener" href="https://hexo.io/docs/">官网</a></p>
+</blockquote>
 <h4 id="配置环境变量"><a href="#配置环境变量" class="headerlink" title="配置环境变量"></a>配置环境变量</h4><p>右击“此电脑”——“属性”——“高级系统设置”——“环境变量”——pc的用户变量——选中path——“编辑”——“新建”——输入“C:\博客搭建\Global”——“确定”<br><img src="https://s3.ax1x.com/2021/01/27/sxSLGR.png" alt="配置路径图一"><br><img src="https://s3.ax1x.com/2021/01/27/sxpkRI.png" alt="配置路径图二"></p>
 <p>在<strong>Git Bash</strong> 输入 <strong>hexo -v</strong> 验证</p>
 <hr>
@@ -181,6 +183,20 @@
 <blockquote>
 <p>创建博客完成</p>
 </blockquote>
+<hr>
+<h2 id="博客备份与恢复"><a href="#博客备份与恢复" class="headerlink" title="博客备份与恢复"></a>博客备份与恢复</h2><blockquote>
+<p>由于电脑总是会无可避免的进行重装或者会出现硬件损坏等问题，这时候需要将博客本地文件进行备份和恢复。</p>
+</blockquote>
+<h4 id="备份"><a href="#备份" class="headerlink" title="备份"></a>备份</h4><ul>
+<li>备份整个博客文件到GitHub等代码托管平台</li>
+<li>U盘等存储硬件备份</li>
+</ul>
+<h4 id="恢复"><a href="#恢复" class="headerlink" title="恢复"></a>恢复</h4><ul>
+<li>确保本地Hexo博客基础环境已经搭好，电脑已经安装git，node.js，hexo，npm等。（注意：新版的NodeJS已经集成了npm不需要单独下载）</li>
+<li>将备份文件重新下载到电脑上</li>
+<li>在恢复的文件里执行<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli</span><br><span class="line">npm install</span><br><span class="line">npm install hexo-deployer-git</span><br></pre></td></tr></table></figure></li>
+<li>然后可以执行其他操作</li>
+</ul>
  
       <!-- reward -->
       
@@ -339,7 +355,7 @@
     <ul>
       <li>
         Copyrights &copy;
-        2020-2022
+        2020-2023
         <i class="ri-heart-fill heart_icon"></i> Ren
       </li>
     </ul>
