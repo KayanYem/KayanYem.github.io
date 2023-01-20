@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-08-23T17:15:27.169Z</updated>
+  <updated>2023-01-20T11:40:52.340Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git学习</title>
+    <link href="http://example.com/2023/01/20/Git%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://example.com/2023/01/20/Git%E5%AD%A6%E4%B9%A0/</id>
+    <published>2023-01-20T11:39:39.000Z</published>
+    <updated>2023-01-20T11:40:52.340Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Git学习&quot;&gt;&lt;a href=&quot;#Git学习&quot; class=&quot;headerlink&quot; title=&quot;Git学习&quot;&gt;&lt;/a&gt;Git学习&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;参考 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="笔记" scheme="http://example.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>基于Python_Turtle库制作的扫雷</title>
