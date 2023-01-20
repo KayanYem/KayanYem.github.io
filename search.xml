@@ -15,7 +15,11 @@
   <entry>
     <title>Git学习</title>
     <url>/2023/01/20/Git%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<h2 id="Git学习"><a href="#Git学习" class="headerlink" title="Git学习"></a>Git学习</h2><blockquote>
+    <content><![CDATA[<p>Git学习笔记</p>
+<span id="more"></span>
+
+<hr>
+<h2 id="Git学习"><a href="#Git学习" class="headerlink" title="Git学习"></a>Git学习</h2><blockquote>
 <p>参考 <a href="https://mp.weixin.qq.com/s/Bf7uVhGiu47uOELjmC5uXQ">https://mp.weixin.qq.com/s/Bf7uVhGiu47uOELjmC5uXQ</a></p>
 </blockquote>
 <h4 id="启动Git"><a href="#启动Git" class="headerlink" title="启动Git"></a>启动Git</h4><ul>
