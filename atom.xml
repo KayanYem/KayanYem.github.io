@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-01-20T11:42:51.106Z</updated>
+  <updated>2023-03-20T14:18:28.818Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Weapon_of_Aphelios</title>
+    <link href="http://example.com/2023/03/20/Weapon-of-Aphelios/"/>
+    <id>http://example.com/2023/03/20/Weapon-of-Aphelios/</id>
+    <published>2023-03-20T14:11:21.000Z</published>
+    <updated>2023-03-20T14:18:28.818Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;：这个名字好中二的样子&lt;/p&gt;
+&lt;p&gt;：就是很中二的东西&lt;br&gt;而且“美而无用”&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="小项目" scheme="http://example.com/categories/%E5%B0%8F%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="STM32" scheme="http://example.com/tags/STM32/"/>
+    
+  </entry>
   
   <entry>
     <title>Git学习</title>

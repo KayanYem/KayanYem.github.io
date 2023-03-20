@@ -13,6 +13,32 @@
       </tags>
   </entry>
   <entry>
+    <title>Weapon_of_Aphelios</title>
+    <url>/2023/03/20/Weapon-of-Aphelios/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
+<p>：这个名字好中二的样子</p>
+<p>：就是很中二的东西<br>而且“美而无用”</p>
+</blockquote>
+<span id="more"></span>
+<hr>
+<p><strong>项目路径：</strong><a href="https://github.com/KayanYem/Weapon_of_Aphelios">Weapon_of_Aphelios</a></p>
+<p><strong>硬件部分：</strong> WS2812 LED灯（X5），使用STM32芯片，按键（红、蓝）。</p>
+<p><strong>实现功能：</strong></p>
+<ul>
+<li>红色按键：最右边的灯移到最左，其余四个依次向右移一位。</li>
+<li>蓝色按键：最右边的灯不动，右边第二个灯移到最左，其余四个依次向右移一位。</li>
+</ul>
+<p><strong>展示</strong></p>
+<p><img src="https://github.com/KayanYem/Weapon_of_Aphelios/5.DISPLAY/pic1.jpg" alt="图1"><br><img src="https://github.com/KayanYem/Weapon_of_Aphelios/5.DISPLAY/pic2.jpg" alt="图2"><br><img src="https://github.com/KayanYem/Weapon_of_Aphelios/5.DISPLAY/pic3.jpg" alt="图3"><br><img src="https://github.com/KayanYem/Weapon_of_Aphelios/5.DISPLAY/video.gif" alt="video"></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">230225 调试</span><br><span class="line">1. 需要修改硬件电路</span><br><span class="line">2. 购买的按钮与设计的不同（已修改</span><br><span class="line">3. LED灯电路有误，电容应该接电源和接地（已修改</span><br><span class="line">4. 考虑是否更换供电方案（没有更换</span><br><span class="line"></span><br><span class="line">230320 完整装配</span><br><span class="line">1. 3D打印壳体透光效果不太好</span><br><span class="line">2. 整体装配后体积较大</span><br><span class="line">3. 壳体设计考虑不足导致装配麻烦</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>小项目</category>
+      </categories>
+      <tags>
+        <tag>STM32</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Git学习</title>
     <url>/2023/01/20/Git%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[<p>Git学习笔记</p>
